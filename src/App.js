@@ -1,22 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
+import AddForm1 from "./zad1/AddForm1";
+import AddForm2 from "./zad2/AddForm2";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        {/*<AddNumberForm/>*/}
+          <div className="form"><AddForm2/></div>
       </header>
     </div>
   );

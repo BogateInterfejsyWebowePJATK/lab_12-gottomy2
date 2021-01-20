@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useInput } from "./hooks";
+import { useInput } from "../hooks";
 
 export default function AddForm2(){
     const [showTable,setShowTable] = useState(false);
